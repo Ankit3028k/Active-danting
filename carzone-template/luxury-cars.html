@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore our premium collection of luxury cars. High-end vehicles with exceptional quality and professional detailing services."
+    />
+    <meta
+      name="keywords"
+      content="luxury cars, premium vehicles, high-end cars, luxury car sales, exotic cars"
+    />
+    <title>Luxury Cars - Carzone Car Detailing & Auto Repair</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar d-none d-md-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <div class="contact-info">
+              <span
+                ><i class="fas fa-map-marker-alt"></i> 123 Street, New York, NY
+                10001</span
+              >
+              <span><i class="fas fa-phone"></i> +1 (555) 123-4567</span>
+              <span><i class="fas fa-envelope"></i> info@carzone.com</span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="social-links text-end">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/images/logo.png"
+            alt="Carzone Logo"
+            width="50"
+            height="50"
+          />
+          <span class="ms-2 fw-bold">Carzone</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="carsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Cars
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="affordable-cars.html"
+                    >Affordable Cars</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item active" href="luxury-cars.html"
+                    >Luxury Cars</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testimonials.html">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-primary text-white px-3 ms-2"
+                href="booking.html"
+                >Book Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center min-vh-50">
+          <div class="col-12 text-center">
+            <h1 class="display-4 fw-bold mb-3">Luxury Cars</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item">
+                  <a href="index.html" class="text-white-50">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#" class="text-white-50">Cars</a>
+                </li>
+                <li
+                  class="breadcrumb-item active text-white"
+                  aria-current="page"
+                >
+                  Luxury Cars
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="car-filters">
+              <div class="row g-3 align-items-center">
+                <div class="col-lg-3 col-md-6">
+                  <select class="form-select" id="makeFilter">
+                    <option value="">All Makes</option>
+                    <option value="bmw">BMW</option>
+                    <option value="mercedes">Mercedes-Benz</option>
+                    <option value="audi">Audi</option>
+                    <option value="lexus">Lexus</option>
+                    <option value="porsche">Porsche</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <select class="form-select" id="priceFilter">
+                    <option value="">All Prices</option>
+                    <option value="40000-60000">$40,000 - $60,000</option>
+                    <option value="60000-80000">$60,000 - $80,000</option>
+                    <option value="80000-100000">$80,000 - $100,000</option>
+                    <option value="100000+">$100,000+</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <select class="form-select" id="yearFilter">
+                    <option value="">All Years</option>
+                    <option value="2022-2024">2022-2024</option>
+                    <option value="2020-2021">2020-2021</option>
+                    <option value="2018-2019">2018-2019</option>
+                    <option value="2015-2017">2015-2017</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <button class="btn btn-primary w-100" id="resetFilters">
+                    <i class="fas fa-refresh"></i> Reset Filters
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cars Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h5>Premium Collection</h5>
+          <h2>Luxury Vehicles</h2>
+          <p class="lead text-center">
+            Experience the finest in automotive luxury with our carefully
+            curated collection of premium vehicles.
+          </p>
+        </div>
+
+        <div class="row g-4" id="carsGrid">
+          <!-- Car 1 -->
+          <div
+            class="col-lg-4 col-md-6 car-item"
+            data-make="bmw"
+            data-price="75900"
+            data-year="2022"
+          >
+            <div class="car-card luxury">
+              <div class="car-image">
+                <img
+                  src="assets/images/hero1.jpg"
+                  alt="2022 BMW 5 Series"
+                  class="img-fluid"
+                />
+                <div class="car-badge luxury-badge">Premium</div>
+                <div class="car-price">$75,900</div>
+              </div>
+              <div class="car-details">
+                <h4 class="car-title">2022 BMW 5 Series 540i</h4>
+                <div class="car-specs">
+                  <span><i class="fas fa-calendar"></i> 2022</span>
+                  <span><i class="fas fa-road"></i> 15,000 mi</span>
+                  <span><i class="fas fa-gas-pump"></i> 25 MPG</span>
+                  <span><i class="fas fa-cogs"></i> 8-Speed Auto</span>
+                </div>
+                <div class="car-features">
+                  <span class="feature-tag">M Sport Package</span>
+                  <span class="feature-tag">Premium Audio</span>
+                  <span class="feature-tag">Navigation</span>
+                </div>
+                <div class="car-actions">
+                  <a href="#" class="btn btn-primary">View Details</a>
+                  <a href="tel:+15551234567" class="btn btn-outline-primary"
+                    >Call Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Car 2 -->
+          <div
+            class="col-lg-4 col-md-6 car-item"
+            data-make="mercedes"
+            data-price="89500"
+            data-year="2023"
+          >
+            <div class="car-card luxury">
+              <div class="car-image">
+                <img
+                  src="assets/images/hero2.jpg"
+                  alt="2023 Mercedes C-Class"
+                  class="img-fluid"
+                />
+                <div class="car-badge luxury-badge">Certified</div>
+                <div class="car-price">$89,500</div>
+              </div>
+              <div class="car-details">
+                <h4 class="car-title">2023 Mercedes-Benz C300 4MATIC</h4>
+                <div class="car-specs">
+                  <span><i class="fas fa-calendar"></i> 2023</span>
+                  <span><i class="fas fa-road"></i> 8,500 mi</span>
+                  <span><i class="fas fa-gas-pump"></i> 28 MPG</span>
+                  <span><i class="fas fa-cogs"></i> 9G-TRONIC</span>
+                </div>
+                <div class="car-features">
+                  <span class="feature-tag">AMG Line</span>
+                  <span class="feature-tag">MBUX System</span>
+                  <span class="feature-tag">Panoramic Roof</span>
+                </div>
+                <div class="car-actions">
+                  <a href="#" class="btn btn-primary">View Details</a>
+                  <a href="tel:+15551234567" class="btn btn-outline-primary"
+                    >Call Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Car 3 -->
+          <div
+            class="col-lg-4 col-md-6 car-item"
+            data-make="audi"
+            data-price="68900"
+            data-year="2021"
+          >
+            <div class="car-card luxury">
+              <div class="car-image">
+                <img
+                  src="assets/images/hero3.jpg"
+                  alt="2021 Audi A6"
+                  class="img-fluid"
+                />
+                <div class="car-badge luxury-badge">S-Line</div>
+                <div class="car-price">$68,900</div>
+              </div>
+              <div class="car-details">
+                <h4 class="car-title">2021 Audi A6 Premium Plus</h4>
+                <div class="car-specs">
+                  <span><i class="fas fa-calendar"></i> 2021</span>
+                  <span><i class="fas fa-road"></i> 22,000 mi</span>
+                  <span><i class="fas fa-gas-pump"></i> 27 MPG</span>
+                  <span><i class="fas fa-cogs"></i> Tiptronic</span>
+                </div>
+                <div class="car-features">
+                  <span class="feature-tag">Quattro AWD</span>
+                  <span class="feature-tag">Virtual Cockpit</span>
+                  <span class="feature-tag">Bang & Olufsen</span>
+                </div>
+                <div class="car-actions">
+                  <a href="#" class="btn btn-primary">View Details</a>
+                  <a href="tel:+15551234567" class="btn btn-outline-primary"
+                    >Call Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Car 4 -->
+          <div
+            class="col-lg-4 col-md-6 car-item"
+            data-make="lexus"
+            data-price="95900"
+            data-year="2023"
+          >
+            <div class="car-card luxury">
+              <div class="car-image">
+                <img
+                  src="assets/images/wash.jpg"
+                  alt="2023 Lexus ES"
+                  class="img-fluid"
+                />
+                <div class="car-badge luxury-badge">Hybrid</div>
+                <div class="car-price">$95,900</div>
+              </div>
+              <div class="car-details">
+                <h4 class="car-title">2023 Lexus ES 300h Luxury</h4>
+                <div class="car-specs">
+                  <span><i class="fas fa-calendar"></i> 2023</span>
+                  <span><i class="fas fa-road"></i> 12,000 mi</span>
+                  <span><i class="fas fa-gas-pump"></i> 44 MPG</span>
+                  <span><i class="fas fa-cogs"></i> eCVT</span>
+                </div>
+                <div class="car-features">
+                  <span class="feature-tag">Lexus Safety+</span>
+                  <span class="feature-tag">Mark Levinson</span>
+                  <span class="feature-tag">Heated/Cooled Seats</span>
+                </div>
+                <div class="car-actions">
+                  <a href="#" class="btn btn-primary">View Details</a>
+                  <a href="tel:+15551234567" class="btn btn-outline-primary"
+                    >Call Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Car 5 -->
+          <div
+            class="col-lg-4 col-md-6 car-item"
+            data-make="porsche"
+            data-price="125900"
+            data-year="2022"
+          >
+            <div class="car-card luxury">
+              <div class="car-image">
+                <img
+                  src="assets/images/ceramic.jpg"
+                  alt="2022 Porsche Macan"
+                  class="img-fluid"
+                />
+                <div class="car-badge luxury-badge">Sport</div>
+                <div class="car-price">$125,900</div>
+              </div>
+              <div class="car-details">
+                <h4 class="car-title">2022 Porsche Macan S</h4>
+                <div class="car-specs">
+                  <span><i class="fas fa-calendar"></i> 2022</span>
+                  <span><i class="fas fa-road"></i> 18,000 mi</span>
+                  <span><i class="fas fa-gas-pump"></i> 22 MPG</span>
+                  <span><i class="fas fa-cogs"></i> PDK</span>
+                </div>
+                <div class="car-features">
+                  <span class="feature-tag">Sport Chrono</span>
+                  <span class="feature-tag">Air Suspension</span>
+                  <span class="feature-tag">Bose Audio</span>
+                </div>
+                <div class="car-actions">
+                  <a href="#" class="btn btn-primary">View Details</a>
+                  <a href="tel:+15551234567" class="btn btn-outline-primary"
+                    >Call Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Car 6 -->
+          <div
+            class="col-lg-4 col-md-6 car-item"
+            data-make="bmw"
+            data-price="145900"
+            data-year="2024"
+          >
+            <div class="car-card luxury">
+              <div class="car-image">
+                <img
+                  src="assets/images/hero1.jpg"
+                  alt="2024 BMW X5"
+                  class="img-fluid"
+                />
+                <div class="car-badge luxury-badge">New</div>
+                <div class="car-price">$145,900</div>
+              </div>
+              <div class="car-details">
+                <h4 class="car-title">2024 BMW X5 xDrive40i</h4>
+                <div class="car-specs">
+                  <span><i class="fas fa-calendar"></i> 2024</span>
+                  <span><i class="fas fa-road"></i> 5,000 mi</span>
+                  <span><i class="fas fa-gas-pump"></i> 24 MPG</span>
+                  <span><i class="fas fa-cogs"></i> 8-Speed Auto</span>
+                </div>
+                <div class="car-features">
+                  <span class="feature-tag">M Sport Package</span>
+                  <span class="feature-tag">Harman Kardon</span>
+                  <span class="feature-tag">Gesture Control</span>
+                </div>
+                <div class="car-actions">
+                  <a href="#" class="btn btn-primary">View Details</a>
+                  <a href="tel:+15551234567" class="btn btn-outline-primary"
+                    >Call Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Luxury Services -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-title">
+          <h5>Premium Services</h5>
+          <h2>Luxury Car Care</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="feature-card text-center">
+              <div class="feature-icon mb-4">
+                <i class="fas fa-gem"></i>
+              </div>
+              <h5>Concierge Service</h5>
+              <p>
+                White-glove treatment with pickup and delivery service for your
+                luxury vehicle.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="feature-card text-center">
+              <div class="feature-icon mb-4">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <h5>Certified Technicians</h5>
+              <p>
+                Factory-trained specialists for BMW, Mercedes, Audi, Lexus, and
+                Porsche vehicles.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="feature-card text-center">
+              <div class="feature-icon mb-4">
+                <i class="fas fa-star"></i>
+              </div>
+              <h5>Premium Detailing</h5>
+              <p>
+                Exclusive ceramic coatings and paint protection films for
+                ultimate luxury care.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="feature-card text-center">
+              <div class="feature-icon mb-4">
+                <i class="fas fa-handshake"></i>
+              </div>
+              <h5>Extended Warranty</h5>
+              <p>
+                Comprehensive warranty coverage and maintenance packages for
+                luxury vehicles.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Luxury Financing -->
+    <section class="section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="luxury-financing-content">
+              <h5 class="text-primary">Luxury Financing</h5>
+              <h2>Premium Financing Solutions</h2>
+              <p class="lead">
+                Exclusive financing options tailored for luxury vehicle
+                purchases with competitive rates and flexible terms.
+              </p>
+
+              <div class="luxury-features">
+                <div class="luxury-item">
+                  <i class="fas fa-crown text-warning"></i>
+                  <span>VIP financing with preferred rates</span>
+                </div>
+                <div class="luxury-item">
+                  <i class="fas fa-crown text-warning"></i>
+                  <span>Lease options available</span>
+                </div>
+                <div class="luxury-item">
+                  <i class="fas fa-crown text-warning"></i>
+                  <span>Trade-in evaluations</span>
+                </div>
+                <div class="luxury-item">
+                  <i class="fas fa-crown text-warning"></i>
+                  <span>Extended payment terms up to 84 months</span>
+                </div>
+              </div>
+
+              <div class="luxury-actions mt-4">
+                <a href="contact.html" class="btn btn-primary btn-lg me-3"
+                  >Get Pre-Qualified</a
+                >
+                <a
+                  href="tel:+15551234567"
+                  class="btn btn-outline-primary btn-lg"
+                  >Speak to Specialist</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="luxury-benefits">
+              <h4>Luxury Ownership Benefits</h4>
+              <div class="benefit-list">
+                <div class="benefit-item">
+                  <div class="benefit-icon">
+                    <i class="fas fa-car"></i>
+                  </div>
+                  <div class="benefit-content">
+                    <h6>Complimentary Detailing</h6>
+                    <p>
+                      Annual premium detailing service included with purchase
+                    </p>
+                  </div>
+                </div>
+                <div class="benefit-item">
+                  <div class="benefit-icon">
+                    <i class="fas fa-tools"></i>
+                  </div>
+                  <div class="benefit-content">
+                    <h6>Priority Service</h6>
+                    <p>Fast-track maintenance and repair scheduling</p>
+                  </div>
+                </div>
+                <div class="benefit-item">
+                  <div class="benefit-icon">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="benefit-content">
+                    <h6>24/7 Concierge</h6>
+                    <p>Round-the-clock support for all your automotive needs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-title">
+          <h5>Client Reviews</h5>
+          <h2>What Our Luxury Clients Say</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="testimonial-card luxury">
+              <div class="testimonial-rating mb-3">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+              </div>
+              <div class="testimonial-text">
+                "Exceptional service for my BMW M5. The attention to detail and
+                professional care exceeded my expectations. Truly a luxury
+                experience."
+              </div>
+              <div class="testimonial-author">
+                <div class="testimonial-image">
+                  <img
+                    src="assets/images/hero1.jpg"
+                    alt="Client"
+                    class="rounded-circle"
+                  />
+                </div>
+                <div class="author-info">
+                  <h5 class="client-name">Alexander Stone</h5>
+                  <p class="client-position">CEO, Stone Enterprises</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="testimonial-card luxury">
+              <div class="testimonial-rating mb-3">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+              </div>
+              <div class="testimonial-text">
+                "The concierge service is outstanding. They picked up my
+                Porsche, detailed it perfectly, and delivered it back spotless.
+                Highly recommend!"
+              </div>
+              <div class="testimonial-author">
+                <div class="testimonial-image">
+                  <img
+                    src="assets/images/hero2.jpg"
+                    alt="Client"
+                    class="rounded-circle"
+                  />
+                </div>
+                <div class="author-info">
+                  <h5 class="client-name">Victoria Hamilton</h5>
+                  <p class="client-position">Investment Banker</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="testimonial-card luxury">
+              <div class="testimonial-rating mb-3">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+              </div>
+              <div class="testimonial-text">
+                "Professional, reliable, and trustworthy. My Mercedes has never
+                looked better. The ceramic coating service is worth every
+                penny."
+              </div>
+              <div class="testimonial-author">
+                <div class="testimonial-image">
+                  <img
+                    src="assets/images/hero3.jpg"
+                    alt="Client"
+                    class="rounded-circle"
+                  />
+                </div>
+                <div class="author-info">
+                  <h5 class="client-name">Richard Chen</h5>
+                  <p class="client-position">Real Estate Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <h2 class="mb-3">Experience Luxury Automotive Excellence</h2>
+            <p class="mb-0">
+              Discover our premium collection of luxury vehicles and experience
+              unparalleled service quality.
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="contact.html" class="btn btn-light btn-lg me-3">
+              <i class="fas fa-calendar"></i> Schedule Viewing
+            </a>
+            <a href="tel:+15551234567" class="btn btn-outline-light btn-lg">
+              <i class="fas fa-phone"></i> Call VIP Line
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+      <div class="container">
+        <div class="footer-top py-5">
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-widget">
+                <div class="footer-logo mb-4">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="Carzone Logo"
+                    width="50"
+                    height="50"
+                  />
+                  <span class="ms-2 h4">Carzone</span>
+                </div>
+                <p class="mb-4">
+                  Professional car detailing and auto repair services with over
+                  15 years of experience. We provide quality service with
+                  guaranteed satisfaction.
+                </p>
+                <div class="social-links">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="Instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="#" aria-label="YouTube"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <div class="footer-widget">
+                <h5 class="footer-title">Quick Links</h5>
+                <ul class="footer-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-widget">
+                <h5 class="footer-title">Services</h5>
+                <ul class="footer-links">
+                  <li><a href="services.html">Car Detailing</a></li>
+                  <li><a href="services.html">Auto Repair</a></li>
+                  <li><a href="services.html">Oil Change</a></li>
+                  <li><a href="services.html">Brake Service</a></li>
+                  <li><a href="services.html">Tire Service</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-widget">
+                <h5 class="footer-title">Contact Info</h5>
+                <div class="contact-info">
+                  <p>
+                    <i class="fas fa-map-marker-alt"></i> 123 Street, New York,
+                    NY 10001
+                  </p>
+                  <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                  <p><i class="fas fa-envelope"></i> info@carzone.com</p>
+                  <p><i class="fas fa-clock"></i> Mon-Fri: 8AM-6PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom py-3 border-top border-secondary">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p class="mb-0">&copy; 2024 Carzone. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <div class="footer-links-inline">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

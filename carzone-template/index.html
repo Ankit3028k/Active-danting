@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Carzone - Professional Car Detailing & Auto Repair Services. Expert car care, detailing, and repair services with 24/7 support."
+    />
+    <meta
+      name="keywords"
+      content="car detailing, auto repair, car wash, car service, automotive, car care"
+    />
+    <meta name="author" content="Carzone" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Carzone - Car Detailing & Auto Repair Services"
+    />
+    <meta
+      property="og:description"
+      content="Professional car detailing and auto repair services with expert technicians and 24/7 support."
+    />
+    <meta property="og:image" content="assets/images/hero1.jpg" />
+    <meta property="og:url" content="https://your-domain.com" />
+    <meta property="og:type" content="website" />
+
+    <title>Carzone - Car Detailing & Auto Repair Services</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+      <div class="preloader-content">
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <h5 class="mt-3">Loading...</h5>
+      </div>
+    </div>
+
+    <!-- Top Bar -->
+    <div class="top-bar d-none d-md-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <div class="contact-info">
+              <span
+                ><i class="fas fa-map-marker-alt"></i> 123 Street, New York, NY
+                10001</span
+              >
+              <span><i class="fas fa-phone"></i> +1 (555) 123-4567</span>
+              <span><i class="fas fa-envelope"></i> info@carzone.com</span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="social-links text-end">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      role="navigation"
+      aria-label="Main navigation"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/images/logo.png"
+            alt="Carzone Logo"
+            width="50"
+            height="50"
+          />
+          <span class="ms-2 fw-bold">Carzone</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#process">Process</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-primary text-white px-3 ms-2"
+                href="#booking"
+                >Book Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section with Slider -->
+    <section id="home" class="hero-section">
+      <div
+        id="heroCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+      >
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div
+              class="hero-slide"
+              style="background-image: url('assets/images/hero1.jpg')"
+            >
+              <div class="container">
+                <div class="row align-items-center min-vh-100">
+                  <div class="col-lg-8">
+                    <div class="hero-content fade-in">
+                      <h1 class="display-3 fw-bold mb-4">
+                        Professional Car Detailing Services
+                      </h1>
+                      <p class="lead mb-4">
+                        Transform your vehicle with our expert detailing and
+                        repair services. We provide premium car care solutions
+                        with guaranteed satisfaction.
+                      </p>
+                      <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary btn-lg me-3"
+                          >Our Services</a
+                        >
+                        <a href="#contact" class="btn btn-outline-light btn-lg"
+                          >Get Quote</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="booking-form fade-in">
+                      <h3 class="mb-3">Book Your Service</h3>
+                      <form
+                        id="bookingForm"
+                        role="form"
+                        aria-label="Service booking form"
+                      >
+                        <div class="mb-3">
+                          <input
+                            type="text"
+                            class="form-control"
+                            name="name"
+                            placeholder="Your Name*"
+                            required
+                            aria-label="Your name"
+                          />
+                        </div>
+                        <div class="mb-3">
+                          <input
+                            type="tel"
+                            class="form-control"
+                            name="phone"
+                            placeholder="Phone Number*"
+                            required
+                            aria-label="Phone number"
+                          />
+                        </div>
+                        <div class="mb-3">
+                          <select
+                            class="form-select"
+                            name="service"
+                            required
+                            aria-label="Select service"
+                          >
+                            <option value="">Select Service*</option>
+                            <option value="car-wash">Car Wash</option>
+                            <option value="detailing">Full Detailing</option>
+                            <option value="repair">Auto Repair</option>
+                            <option value="maintenance">Maintenance</option>
+                          </select>
+                        </div>
+                        <div class="mb-3">
+                          <input
+                            type="date"
+                            class="form-control"
+                            name="date"
+                            required
+                            aria-label="Preferred date"
+                          />
+                        </div>
+                        <div class="mb-3">
+                          <textarea
+                            class="form-control"
+                            name="message"
+                            rows="3"
+                            placeholder="Additional Message"
+                            aria-label="Additional message"
+                          ></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">
+                          Book Now
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div
+              class="hero-slide"
+              style="background-image: url('assets/images/hero2.jpg')"
+            >
+              <div class="container">
+                <div class="row align-items-center min-vh-100">
+                  <div class="col-lg-8">
+                    <div class="hero-content fade-in">
+                      <h1 class="display-3 fw-bold mb-4">
+                        Expert Auto Repair Solutions
+                      </h1>
+                      <p class="lead mb-4">
+                        From routine maintenance to complex repairs, our
+                        certified technicians ensure your vehicle runs at peak
+                        performance with quality parts and service.
+                      </p>
+                      <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary btn-lg me-3"
+                          >View Services</a
+                        >
+                        <a
+                          href="tel:+15551234567"
+                          class="btn btn-outline-light btn-lg"
+                          >Call Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div
+              class="hero-slide"
+              style="background-image: url('assets/images/hero3.jpg')"
+            >
+              <div class="container">
+                <div class="row align-items-center min-vh-100">
+                  <div class="col-lg-8">
+                    <div class="hero-content fade-in">
+                      <h1 class="display-3 fw-bold mb-4">
+                        24/7 Emergency Service
+                      </h1>
+                      <p class="lead mb-4">
+                        Need immediate assistance? Our emergency service team is
+                        available around the clock to help you get back on the
+                        road safely and quickly.
+                      </p>
+                      <div class="hero-buttons">
+                        <a
+                          href="tel:+15551234567"
+                          class="btn btn-primary btn-lg me-3"
+                          >Emergency Call</a
+                        >
+                        <a href="#contact" class="btn btn-outline-light btn-lg"
+                          >Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+          aria-label="Previous slide"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+          aria-label="Next slide"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="partners-slider">
+              <div class="row align-items-center">
+                <div class="col-6 col-md-2 mb-4 mb-md-0">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="Partner 1"
+                    class="img-fluid opacity-50"
+                  />
+                </div>
+                <div class="col-6 col-md-2 mb-4 mb-md-0">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="Partner 2"
+                    class="img-fluid opacity-50"
+                  />
+                </div>
+                <div class="col-6 col-md-2 mb-4 mb-md-0">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="Partner 3"
+                    class="img-fluid opacity-50"
+                  />
+                </div>
+                <div class="col-6 col-md-2 mb-4 mb-md-0">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="Partner 4"
+                    class="img-fluid opacity-50"
+                  />
+                </div>
+                <div class="col-6 col-md-2 mb-4 mb-md-0">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="Partner 5"
+                    class="img-fluid opacity-50"
+                  />
+                </div>
+                <div class="col-6 col-md-2">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="Partner 6"
+                    class="img-fluid opacity-50"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h5>We offer best repair services</h5>
+          <h2>Our Services</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card fade-in">
+              <div class="service-icon">
+                <i class="fas fa-oil-can"></i>
+              </div>
+              <h4>Oil Changes</h4>
+              <p>
+                Professional oil change services using premium quality oils and
+                filters to keep your engine running smoothly and efficiently.
+              </p>
+              <a href="services.html" class="btn btn-outline-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card fade-in">
+              <div class="service-icon">
+                <i class="fas fa-spray-can"></i>
+              </div>
+              <h4>Car Wash & Detailing</h4>
+              <p>
+                Complete car washing and detailing services including interior
+                cleaning, waxing, and paint protection for a showroom finish.
+              </p>
+              <a href="services.html" class="btn btn-outline-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card fade-in">
+              <div class="service-icon">
+                <i class="fas fa-tools"></i>
+              </div>
+              <h4>Brake Repair</h4>
+              <p>
+                Expert brake system inspection, repair, and replacement services
+                to ensure your safety on the road with quality parts.
+              </p>
+              <a href="services.html" class="btn btn-outline-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card fade-in">
+              <div class="service-icon">
+                <i class="fas fa-cog"></i>
+              </div>
+              <h4>Engine Repair</h4>
+              <p>
+                Comprehensive engine diagnostics and repair services by
+                certified technicians using state-of-the-art equipment and
+                tools.
+              </p>
+              <a href="services.html" class="btn btn-outline-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card fade-in">
+              <div class="service-icon">
+                <i class="fas fa-tire"></i>
+              </div>
+              <h4>Tire Services</h4>
+              <p>
+                Complete tire services including installation, balancing,
+                rotation, and alignment to maximize tire life and performance.
+              </p>
+              <a href="services.html" class="btn btn-outline-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card fade-in">
+              <div class="service-icon">
+                <i class="fas fa-battery-half"></i>
+              </div>
+              <h4>Battery & Electrical</h4>
+              <p>
+                Battery testing, replacement, and electrical system diagnostics
+                to keep your vehicle's electrical components functioning
+                properly.
+              </p>
+              <a href="services.html" class="btn btn-outline-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About/Why Choose Us Section -->
+    <section id="about" class="section bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-image">
+              <img
+                src="assets/images/about.jpg"
+                alt="About Carzone"
+                class="img-fluid rounded shadow"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content">
+              <h5 class="text-white-50">Why Choose Us?</h5>
+              <h2 class="mb-4">We Are The Best Car Service Provider</h2>
+              <p class="mb-4">
+                With over 15 years of experience in the automotive industry, we
+                provide top-quality car detailing and repair services. Our
+                certified technicians use the latest equipment and premium
+                products to ensure your vehicle receives the best care possible.
+              </p>
+
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <i class="fas fa-check-circle text-warning me-2"></i>
+                    <span>Certified Technicians</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <i class="fas fa-check-circle text-warning me-2"></i>
+                    <span>Quality Parts & Products</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <i class="fas fa-check-circle text-warning me-2"></i>
+                    <span>24/7 Emergency Service</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <i class="fas fa-check-circle text-warning me-2"></i>
+                    <span>Satisfaction Guarantee</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <i class="fas fa-check-circle text-warning me-2"></i>
+                    <span>Competitive Pricing</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <i class="fas fa-check-circle text-warning me-2"></i>
+                    <span>Free Estimates</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-4">
+                <a href="#contact" class="btn btn-light btn-lg"
+                  >Get Free Quote</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Timeline Section -->
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h5>How We Work</h5>
+          <h2>Our Service Process</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="process-step text-center">
+              <div class="process-icon">
+                <span class="step-number">1</span>
+                <i class="fas fa-calendar-check"></i>
+              </div>
+              <h4>Book Appointment</h4>
+              <p>
+                Schedule your service appointment online or call us. Choose your
+                preferred date and time.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="process-step text-center">
+              <div class="process-icon">
+                <span class="step-number">2</span>
+                <i class="fas fa-search"></i>
+              </div>
+              <h4>Vehicle Inspection</h4>
+              <p>
+                Our certified technicians perform a thorough inspection and
+                provide a detailed estimate.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="process-step text-center">
+              <div class="process-icon">
+                <span class="step-number">3</span>
+                <i class="fas fa-wrench"></i>
+              </div>
+              <h4>Professional Service</h4>
+              <p>
+                We perform the service using quality parts and advanced
+                equipment with attention to detail.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="process-step text-center">
+              <div class="process-icon">
+                <span class="step-number">4</span>
+                <i class="fas fa-thumbs-up"></i>
+              </div>
+              <h4>Quality Check</h4>
+              <p>
+                Final quality inspection and test drive to ensure everything
+                meets our high standards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section bg-light">
+      <div class="container">
+        <div class="section-title">
+          <h5>Our Work Portfolio</h5>
+          <h2>Gallery</h2>
+        </div>
+
+        <!-- Gallery Filter -->
+        <div class="gallery-filter text-center mb-5">
+          <button
+            class="btn btn-outline-primary active me-2 mb-2"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button
+            class="btn btn-outline-primary me-2 mb-2"
+            data-filter="detailing"
+          >
+            Detailing
+          </button>
+          <button
+            class="btn btn-outline-primary me-2 mb-2"
+            data-filter="repair"
+          >
+            Repair
+          </button>
+          <button class="btn btn-outline-primary me-2 mb-2" data-filter="wash">
+            Car Wash
+          </button>
+          <button class="btn btn-outline-primary me-2 mb-2" data-filter="paint">
+            Paint Work
+          </button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="row g-4 gallery-container">
+          <div
+            class="col-lg-4 col-md-6 gallery-item detailing wash"
+            data-category="detailing"
+          >
+            <div class="gallery-card">
+              <img
+                src="assets/images/hero1.jpg"
+                alt="Car Detailing Work"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h5>Premium Detailing</h5>
+                  <p>Complete interior and exterior detailing</p>
+                  <button
+                    class="btn btn-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#galleryModal"
+                    data-image="assets/images/hero1.jpg"
+                    data-title="Premium Detailing"
+                  >
+                    <i class="fas fa-expand-alt"></i> View
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 gallery-item repair"
+            data-category="repair"
+          >
+            <div class="gallery-card">
+              <img
+                src="assets/images/hero2.jpg"
+                alt="Engine Repair"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h5>Engine Repair</h5>
+                  <p>Professional engine diagnostics and repair</p>
+                  <button
+                    class="btn btn-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#galleryModal"
+                    data-image="assets/images/hero2.jpg"
+                    data-title="Engine Repair"
+                  >
+                    <i class="fas fa-expand-alt"></i> View
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 gallery-item wash detailing"
+            data-category="wash"
+          >
+            <div class="gallery-card">
+              <img
+                src="assets/images/wash.jpg"
+                alt="Car Wash Service"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h5>Car Wash</h5>
+                  <p>Professional car washing service</p>
+                  <button
+                    class="btn btn-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#galleryModal"
+                    data-image="assets/images/wash.jpg"
+                    data-title="Car Wash"
+                  >
+                    <i class="fas fa-expand-alt"></i> View
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 gallery-item paint"
+            data-category="paint"
+          >
+            <div class="gallery-card">
+              <img
+                src="assets/images/hero3.jpg"
+                alt="Paint Work"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h5>Paint Restoration</h5>
+                  <p>Professional paint correction and restoration</p>
+                  <button
+                    class="btn btn-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#galleryModal"
+                    data-image="assets/images/hero3.jpg"
+                    data-title="Paint Restoration"
+                  >
+                    <i class="fas fa-expand-alt"></i> View
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 gallery-item detailing"
+            data-category="detailing"
+          >
+            <div class="gallery-card">
+              <img
+                src="assets/images/ceramic.jpg"
+                alt="Ceramic Coating"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h5>Ceramic Coating</h5>
+                  <p>Premium ceramic coating application</p>
+                  <button
+                    class="btn btn-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#galleryModal"
+                    data-image="assets/images/ceramic.jpg"
+                    data-title="Ceramic Coating"
+                  >
+                    <i class="fas fa-expand-alt"></i> View
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 gallery-item detailing"
+            data-category="detailing"
+          >
+            <div class="gallery-card">
+              <img
+                src="assets/images/ppf.jpg"
+                alt="Paint Protection Film"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay">
+                <div class="gallery-content">
+                  <h5>Paint Protection Film</h5>
+                  <p>Professional PPF installation</p>
+                  <button
+                    class="btn btn-light btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#galleryModal"
+                    data-image="assets/images/ppf.jpg"
+                    data-title="Paint Protection Film"
+                  >
+                    <i class="fas fa-expand-alt"></i> View
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div
+      class="modal fade"
+      id="galleryModal"
+      tabindex="-1"
+      aria-labelledby="galleryModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="galleryModalLabel">Gallery Image</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <img id="galleryModalImage" src="" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h5>Affordable Packages</h5>
+          <h2>Our Pricing Plans</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="pricing-card">
+              <div class="pricing-header">
+                <h3>Basic</h3>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">49</span>
+                  <span class="period">/service</span>
+                </div>
+              </div>
+              <div class="pricing-body">
+                <ul class="pricing-features">
+                  <li>
+                    <i class="fas fa-check text-success"></i> Exterior Wash
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success"></i> Interior Vacuum
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success"></i> Window Cleaning
+                  </li>
+                  <li><i class="fas fa-check text-success"></i> Tire Shine</li>
+                  <li>
+                    <i class="fas fa-times text-muted"></i> Wax Application
+                  </li>
+                  <li>
+                    <i class="fas fa-times text-muted"></i> Interior Detailing
+                  </li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="#contact" class="btn btn-outline-primary w-100"
+                  >Choose Plan</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="pricing-card featured">
+              <div class="pricing-badge">Most Popular</div>
+              <div class="pricing-header">
+                <h3>Premium</h3>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">99</span>
+                  <span class="period">/service</span>
+                </div>
+              </div>
+              <div class="pricing-body">
+                <ul class="pricing-features">
+                  <li>
+                    <i class="fas fa-check text-success"></i> Everything in
+                    Basic
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success"></i> Wax Application
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success"></i> Interior Detailing
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success"></i> Engine Bay
+                    Cleaning
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success"></i> Leather
+                    Conditioning
+                  </li>
+                  <li>
+                    <i class="fas fa-times text-muted"></i> Ceramic Coating
+                  </li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="#contact" class="btn btn-primary w-100">Choose Plan</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="pricing-card">
+              <div class="pricing-header">
+                <h3>Ultimate</h3>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">199</span>
+                  <span class="period">/service</span>
+                </div>
+              </div>
+              <div class="pricing-body">
+                <ul class="pricing-features">
+                  <li>
+                    <i class="fas fa-check text-success"></i> Everything in
+                    Premium
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success"></i> Ceramic Coating
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success"></i> Paint Protection
+                    Film
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success"></i> Headlight
+                    Restoration
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success"></i> 6-Month Warranty
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success"></i> Free Pickup &
+                    Delivery
+                  </li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="#contact" class="btn btn-outline-primary w-100"
+                  >Choose Plan</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section bg-light">
+      <div class="container">
+        <div class="section-title">
+          <h5>What Our Clients Say</h5>
+          <h2>Testimonials</h2>
+        </div>
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="4000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="testimonial-card text-center">
+                    <div class="testimonial-image">
+                      <img
+                        src="assets/images/testi1.png"
+                        alt="John Smith"
+                        class="rounded-circle"
+                      />
+                    </div>
+                    <div class="testimonial-content">
+                      <div class="stars mb-3">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                      </div>
+                      <p class="testimonial-text">
+                        "Excellent service! My car looks brand new after their
+                        premium detailing package. The team was professional,
+                        punctual, and exceeded my expectations. Highly
+                        recommended!"
+                      </p>
+                      <h5 class="client-name">John Smith</h5>
+                      <span class="client-position">Business Owner</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="testimonial-card text-center">
+                    <div class="testimonial-image">
+                      <img
+                        src="assets/images/testi2.png"
+                        alt="Sarah Johnson"
+                        class="rounded-circle"
+                      />
+                    </div>
+                    <div class="testimonial-content">
+                      <div class="stars mb-3">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                      </div>
+                      <p class="testimonial-text">
+                        "Amazing work on my car's paint correction and ceramic
+                        coating. The attention to detail is incredible, and the
+                        results speak for themselves. Worth every penny!"
+                      </p>
+                      <h5 class="client-name">Sarah Johnson</h5>
+                      <span class="client-position">Marketing Manager</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="testimonial-card text-center">
+                    <div class="testimonial-image">
+                      <img
+                        src="assets/images/testi3.png"
+                        alt="Mike Wilson"
+                        class="rounded-circle"
+                      />
+                    </div>
+                    <div class="testimonial-content">
+                      <div class="stars mb-3">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                      </div>
+                      <p class="testimonial-text">
+                        "Fast, reliable, and professional service. They fixed my
+                        engine issue quickly and at a fair price. Great customer
+                        service and quality work. Will definitely return!"
+                      </p>
+                      <h5 class="client-name">Mike Wilson</h5>
+                      <span class="client-position">Engineer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h5>Latest News & Tips</h5>
+          <h2>Our Blog</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-image">
+                <img
+                  src="assets/images/hero1.jpg"
+                  alt="Car Maintenance Tips"
+                  class="img-fluid"
+                />
+                <div class="blog-date">
+                  <span class="day">15</span>
+                  <span class="month">Dec</span>
+                </div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-user"></i> Admin</span>
+                  <span><i class="fas fa-comments"></i> 5 Comments</span>
+                </div>
+                <h4>
+                  <a href="blog-single.html"
+                    >How Ceramic Coating Protects Your Vehicle for Years</a
+                  >
+                </h4>
+                <p>
+                  Owning a vehicle is a proud investment, whether it's a
+                      brand-new car or a well-maintained two-wheeler.
+                </p>
+                <a href="blog.html" class="btn btn-outline-primary"
+                  >Read More</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-image">
+                <img
+                  src="assets/images/wash.jpg"
+                  alt="Car Detailing Benefits"
+                  class="img-fluid"
+                />
+                <div class="blog-date">
+                  <span class="day">12</span>
+                  <span class="month">Dec</span>
+                </div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-user"></i> Admin</span>
+                  <span><i class="fas fa-comments"></i> 8 Comments</span>
+                </div>
+                <h4>
+                  <a href="blog-single.html"
+                    >Benefits of Professional Car Detailing</a
+                  >
+                </h4>
+                <p>
+                  Discover why professional car detailing is worth the
+                  investment and how it can protect and enhance your vehicle's
+                  value.
+                </p>
+                <a href="blog-single.html" class="btn btn-outline-primary"
+                  >Read More</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-image">
+                <img
+                  src="assets/images/ceramic.jpg"
+                  alt="Ceramic Coating Guide"
+                  class="img-fluid"
+                />
+                <div class="blog-date">
+                  <span class="day">10</span>
+                  <span class="month">Dec</span>
+                </div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-user"></i> Admin</span>
+                  <span><i class="fas fa-comments"></i> 12 Comments</span>
+                </div>
+                <h4>
+                  <a href="blog-single.html"
+                    >Complete Guide to Ceramic Coating</a
+                  >
+                </h4>
+                <p>
+                  Everything you need to know about ceramic coating, its
+                  benefits, application process, and maintenance requirements.
+                </p>
+                <a href="blog-single.html" class="btn btn-outline-primary"
+                  >Read More</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="section bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <h2 class="mb-3">Need Emergency Car Service?</h2>
+            <p class="mb-0">
+              We're available 24/7 for emergency repairs and roadside
+              assistance. Don't let car troubles ruin your day!
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="tel:+15551234567" class="btn btn-light btn-lg me-3">
+              <i class="fas fa-phone"></i> Call Now
+            </a>
+            <a href="#contact" class="btn btn-outline-light btn-lg"
+              >Get Quote</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h5>Get In Touch</h5>
+          <h2>Contact Us</h2>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-content">
+                  <h5>Address</h5>
+                  <p>123 Street, New York, NY 10001<br />United States</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-content">
+                  <h5>Phone</h5>
+                  <p>+1 (555) 123-4567<br />+1 (555) 987-6543</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-content">
+                  <h5>Email</h5>
+                  <p>info@carzone.com<br />support@carzone.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-content">
+                  <h5>Working Hours</h5>
+                  <p>
+                    Mon - Fri: 8:00 AM - 6:00 PM<br />Sat - Sun: 9:00 AM - 4:00
+                    PM
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="contact-form-wrapper">
+              <form
+                id="contactForm"
+                class="contact-form"
+                role="form"
+                aria-label="Contact form"
+              >
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="name"
+                        placeholder="Your Name*"
+                        required
+                        aria-label="Your name"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        placeholder="Your Email*"
+                        required
+                        aria-label="Your email"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input
+                        type="tel"
+                        class="form-control"
+                        name="phone"
+                        placeholder="Phone Number"
+                        aria-label="Phone number"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <select
+                        class="form-select"
+                        name="subject"
+                        aria-label="Subject"
+                      >
+                        <option value="">Select Subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="service">Service Request</option>
+                        <option value="quote">Quote Request</option>
+                        <option value="complaint">Complaint</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        rows="6"
+                        placeholder="Your Message*"
+                        required
+                        aria-label="Your message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                      <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google Map -->
+    <section class="map-section">
+      <div class="container-fluid p-0">
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878459418!3d40.74844097932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1640995200000!5m2!1sen!2s"
+            width="100%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Carzone Location Map"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+      <div class="container">
+        <div class="footer-top py-5">
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-widget">
+                <div class="footer-logo mb-4">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="Carzone Logo"
+                    width="50"
+                    height="50"
+                  />
+                  <span class="ms-2 h4">Carzone</span>
+                </div>
+                <p class="mb-4">
+                  Professional car detailing and auto repair services with over
+                  15 years of experience. We provide quality service with
+                  guaranteed satisfaction.
+                </p>
+                <div class="social-links">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="Instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="#" aria-label="YouTube"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <div class="footer-widget">
+                <h5 class="footer-title">Quick Links</h5>
+                <ul class="footer-links">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#gallery">Gallery</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-widget">
+                <h5 class="footer-title">Services</h5>
+                <ul class="footer-links">
+                  <li><a href="services.html">Car Detailing</a></li>
+                  <li><a href="services.html">Auto Repair</a></li>
+                  <li><a href="services.html">Oil Change</a></li>
+                  <li><a href="services.html">Brake Service</a></li>
+                  <li><a href="services.html">Tire Service</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-widget">
+                <h5 class="footer-title">Contact Info</h5>
+                <div class="contact-info">
+                  <p>
+                    <i class="fas fa-map-marker-alt"></i> 123 Street, New York,
+                    NY 10001
+                  </p>
+                  <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                  <p><i class="fas fa-envelope"></i> info@carzone.com</p>
+                  <p><i class="fas fa-clock"></i> Mon-Fri: 8AM-6PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom py-3 border-top border-secondary">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p class="mb-0">&copy; 2024 Carzone. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <div class="footer-links-inline">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
