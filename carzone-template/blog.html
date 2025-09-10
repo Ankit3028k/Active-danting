@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Read the latest automotive tips, car care guides, and industry news from Carzone's expert team."
+    />
+    <meta
+      name="keywords"
+      content="car care tips, automotive blog, car maintenance, detailing guides"
+    />
+    <title>Blog - Carzone Car Detailing & Auto Repair</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar d-none d-md-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <div class="contact-info">
+              <span
+                ><i class="fas fa-map-marker-alt"></i> 123 Street, New York, NY
+                10001</span
+              >
+              <span><i class="fas fa-phone"></i> +1 (555) 123-4567</span>
+              <span><i class="fas fa-envelope"></i> info@carzone.com</span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="social-links text-end">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/images/logo.png"
+            alt="Carzone Logo"
+            width="50"
+            height="50"
+          />
+          <span class="ms-2 fw-bold">Carzone</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testimonials.html">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-primary text-white px-3 ms-2"
+                href="booking.html"
+                >Book Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center min-vh-50">
+          <div class="col-12 text-center">
+            <h1 class="display-4 fw-bold mb-3">Our Blog</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item">
+                  <a href="index.html" class="text-white-50">Home</a>
+                </li>
+                <li
+                  class="breadcrumb-item active text-white"
+                  aria-current="page"
+                >
+                  Blog
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="featured-post">
+              <div class="row g-0">
+                <div class="col-lg-6">
+                  <div class="featured-image">
+                    <img
+                      src="assets/images/hero1.jpg"
+                      alt="Featured Post"
+                      class="img-fluid"
+                    />
+                    <div class="featured-badge">Featured</div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="featured-content">
+                    <div class="post-meta">
+                      <span class="post-category">Car Care</span>
+                      <span class="post-date">December 15, 2024</span>
+                    </div>
+                    <h2 class="post-title">
+                      The Ultimate Guide to Winter Car Care: Protecting Your
+                      Vehicle in Cold Weather
+                    </h2>
+                    <p class="post-excerpt">
+                      Winter weather can be harsh on your vehicle. From freezing
+                      temperatures to road salt, your car faces numerous
+                      challenges during the colder months. Learn essential tips
+                      to keep your vehicle running smoothly and looking great
+                      all winter long.
+                    </p>
+                    <div class="post-author">
+                      <img
+                        src="assets/images/hero2.jpg"
+                        alt="Author"
+                        class="author-avatar"
+                      />
+                      <div class="author-info">
+                        <span class="author-name">Mike Johnson</span>
+                        <span class="author-title">Senior Technician</span>
+                      </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Categories -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-title">
+          <h5>Browse by Category</h5>
+          <h2>Popular Topics</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-car-wash"></i>
+              </div>
+              <h4>Car Detailing</h4>
+              <p>Tips and techniques for keeping your car looking its best</p>
+              <span class="post-count">12 Articles</span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-tools"></i>
+              </div>
+              <h4>Auto Repair</h4>
+              <p>Expert advice on maintenance and repair solutions</p>
+              <span class="post-count">8 Articles</span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-leaf"></i>
+              </div>
+              <h4>Eco-Friendly</h4>
+              <p>Sustainable car care practices and green solutions</p>
+              <span class="post-count">6 Articles</span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-calendar-alt"></i>
+              </div>
+              <h4>Seasonal Care</h4>
+              <p>Seasonal maintenance tips for year-round protection</p>
+              <span class="post-count">10 Articles</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Posts -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h5>Latest Articles</h5>
+          <h2>Recent Blog Posts</h2>
+        </div>
+
+        <div class="row g-4">
+          <!-- Blog Post 1 -->
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-image">
+                <img
+                  src="assets/images/ceramic.jpg"
+                  alt="Blog Post"
+                  class="img-fluid"
+                />
+                <div class="blog-category">Detailing</div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-calendar"></i> Dec 10, 2024</span>
+                  <span><i class="fas fa-user"></i> Sarah Wilson</span>
+                </div>
+                <h3 class="blog-title">
+                  <a href="#"
+                    >Ceramic Coating vs. Traditional Wax: Which is Better?</a
+                  >
+                </h3>
+                <p class="blog-excerpt">
+                  Discover the differences between ceramic coating and
+                  traditional wax, and learn which option provides the best
+                  protection for your vehicle's paint.
+                </p>
+                <a href="#" class="read-more"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Blog Post 2 -->
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-image">
+                <img
+                  src="assets/images/wash.jpg"
+                  alt="Blog Post"
+                  class="img-fluid"
+                />
+                <div class="blog-category">Maintenance</div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-calendar"></i> Dec 8, 2024</span>
+                  <span><i class="fas fa-user"></i> David Chen</span>
+                </div>
+                <h3 class="blog-title">
+                  <a href="#">5 Signs Your Car Needs Professional Detailing</a>
+                </h3>
+                <p class="blog-excerpt">
+                  Learn to recognize the warning signs that indicate your
+                  vehicle would benefit from professional detailing services.
+                </p>
+                <a href="#" class="read-more"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Blog Post 3 -->
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-image">
+                <img
+                  src="assets/images/hero3.jpg"
+                  alt="Blog Post"
+                  class="img-fluid"
+                />
+                <div class="blog-category">Tips</div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-calendar"></i> Dec 5, 2024</span>
+                  <span><i class="fas fa-user"></i> Lisa Rodriguez</span>
+                </div>
+                <h3 class="blog-title">
+                  <a href="#">How to Maintain Your Car's Interior Like a Pro</a>
+                </h3>
+                <p class="blog-excerpt">
+                  Professional tips and techniques for keeping your car's
+                  interior clean, fresh, and well-maintained between detailing
+                  sessions.
+                </p>
+                <a href="#" class="read-more"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Blog Post 4 -->
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-image">
+                <img
+                  src="assets/images/hero2.jpg"
+                  alt="Blog Post"
+                  class="img-fluid"
+                />
+                <div class="blog-category">Repair</div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-calendar"></i> Dec 3, 2024</span>
+                  <span><i class="fas fa-user"></i> Tom Anderson</span>
+                </div>
+                <h3 class="blog-title">
+                  <a href="#">Common Brake Problems and When to Seek Help</a>
+                </h3>
+                <p class="blog-excerpt">
+                  Understanding brake system warning signs can save you money
+                  and keep you safe. Learn when to schedule brake service.
+                </p>
+                <a href="#" class="read-more"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Blog Post 5 -->
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-image">
+                <img
+                  src="assets/images/hero1.jpg"
+                  alt="Blog Post"
+                  class="img-fluid"
+                />
+                <div class="blog-category">Seasonal</div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-calendar"></i> Nov 30, 2024</span>
+                  <span><i class="fas fa-user"></i> Jennifer Lee</span>
+                </div>
+                <h3 class="blog-title">
+                  <a href="#"
+                    >Preparing Your Car for Spring: Essential Checklist</a
+                  >
+                </h3>
+                <p class="blog-excerpt">
+                  Get your vehicle ready for spring driving with our
+                  comprehensive maintenance checklist and professional
+                  recommendations.
+                </p>
+                <a href="#" class="read-more"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Blog Post 6 -->
+          <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+              <div class="blog-image">
+                <img
+                  src="assets/images/ceramic.jpg"
+                  alt="Blog Post"
+                  class="img-fluid"
+                />
+                <div class="blog-category">Technology</div>
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-calendar"></i> Nov 28, 2024</span>
+                  <span><i class="fas fa-user"></i> Mark Thompson</span>
+                </div>
+                <h3 class="blog-title">
+                  <a href="#">Latest Automotive Technology Trends in 2024</a>
+                </h3>
+                <p class="blog-excerpt">
+                  Explore the cutting-edge technologies shaping the automotive
+                  industry and how they affect vehicle maintenance and care.
+                </p>
+                <a href="#" class="read-more"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="newsletter-signup">
+              <h3>Stay Updated with Car Care Tips</h3>
+              <p class="lead">
+                Subscribe to our newsletter and get the latest automotive tips,
+                maintenance guides, and exclusive offers delivered to your
+                inbox.
+              </p>
+              <form class="newsletter-form">
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email address"
+                    required
+                  />
+                  <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-paper-plane"></i> Subscribe
+                  </button>
+                </div>
+              </form>
+              <small class="text-muted"
+                >We respect your privacy. Unsubscribe at any time.</small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <h2 class="mb-3">Need Professional Car Care?</h2>
+            <p class="mb-0">
+              While our blog provides great tips, nothing beats professional
+              service. Schedule your appointment today!
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="contact.html" class="btn btn-light btn-lg me-3">
+              <i class="fas fa-calendar"></i> Book Service
+            </a>
+            <a href="tel:+15551234567" class="btn btn-outline-light btn-lg">
+              <i class="fas fa-phone"></i> Call Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+      <div class="container">
+        <div class="footer-top py-5">
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-widget">
+                <div class="footer-logo mb-4">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="Carzone Logo"
+                    width="50"
+                    height="50"
+                  />
+                  <span class="ms-2 h4">Carzone</span>
+                </div>
+                <p class="mb-4">
+                  Professional car detailing and auto repair services with over
+                  15 years of experience. We provide quality service with
+                  guaranteed satisfaction.
+                </p>
+                <div class="social-links">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="Instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="#" aria-label="YouTube"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <div class="footer-widget">
+                <h5 class="footer-title">Quick Links</h5>
+                <ul class="footer-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-widget">
+                <h5 class="footer-title">Services</h5>
+                <ul class="footer-links">
+                  <li><a href="services.html">Car Detailing</a></li>
+                  <li><a href="services.html">Auto Repair</a></li>
+                  <li><a href="services.html">Oil Change</a></li>
+                  <li><a href="services.html">Brake Service</a></li>
+                  <li><a href="services.html">Tire Service</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-widget">
+                <h5 class="footer-title">Contact Info</h5>
+                <div class="contact-info">
+                  <p>
+                    <i class="fas fa-map-marker-alt"></i> 123 Street, New York,
+                    NY 10001
+                  </p>
+                  <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                  <p><i class="fas fa-envelope"></i> info@carzone.com</p>
+                  <p><i class="fas fa-clock"></i> Mon-Fri: 8AM-6PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom py-3 border-top border-secondary">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p class="mb-0">&copy; 2024 Carzone. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <div class="footer-links-inline">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
