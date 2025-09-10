@@ -127,14 +127,14 @@ p {
 
 /* Header Styles */
 .navbar {
-  background: var(--white) !important;
+  background: var(--secondary-color) !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   padding: 1rem 0;
 }
 
 .navbar.scrolled {
-  background: rgba(255, 255, 255, 0.95) !important;
+  background: var(--secondary-color)!important;
   backdrop-filter: blur(10px);
   padding: 0.5rem 0;
 }
@@ -149,7 +149,7 @@ p {
 }
 
 .navbar-nav .nav-link {
-  color: var(--text-color) !important;
+  color: var(--white) !important;
   font-weight: 500;
   margin: 0 10px;
   position: relative;
